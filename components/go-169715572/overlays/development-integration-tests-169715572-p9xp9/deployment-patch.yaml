@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: go-169715572
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/hacdev/pigmnfip-tenant/test-app-169715572/go-169715572@sha256:eb435dbce7247c86b88a641c26fd5d0cf81902cc4cc0c7761b5f7ff9f87ce6dc
+        name: my-go
+        resources: {}
+status: {}
